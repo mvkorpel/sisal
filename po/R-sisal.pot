@@ -1,0 +1,606 @@
+# Translation template for messages in sisal R code
+# Copyright (C) 2015 Aalto University
+# This file is distributed under the same license as the sisal package.
+msgid ""
+msgstr ""
+"Project-Id-Version: sisal 0.42-30671723\n"
+"Report-Msgid-Bugs-To: Mikko Korpela <mvkorpel@iki.fi>\n"
+"POT-Creation-Date: 2015-03-09 17:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "'object' must exist and be of class \"sisal\""
+msgstr ""
+
+msgid "'standardize' must be \"inherit\", TRUE or FALSE"
+msgstr ""
+
+msgid "must specify 'dataset'"
+msgstr ""
+
+msgid "numeric 'dataset' must be a vector or a matrix with 1 row or column"
+msgstr ""
+
+msgid "'dataset' of type list must have elements \"X\" and \"y\""
+msgstr ""
+
+msgid "Dataset is \"%s\""
+msgstr ""
+
+msgid "Copying value of '%s' from 'object'"
+msgstr ""
+
+msgid "See ?%s for a description of the data"
+msgstr ""
+
+msgid "Not adding noise"
+msgstr ""
+
+msgid "Adding noise with standard deviation %f"
+msgstr ""
+
+msgid "Downloading data"
+msgstr ""
+
+msgid "mismatch in sizes of 'X' and 'y'"
+msgstr ""
+
+msgid "missing names"
+msgstr ""
+
+msgid "missing variables or names"
+msgstr ""
+
+msgid "duplicated names"
+msgstr ""
+
+msgid "dropping %d missing samples out of a total of %d"
+msgstr ""
+
+msgid "no samples available"
+msgstr ""
+
+msgid "no variables in the model"
+msgstr ""
+
+msgid "slots missing"
+msgstr ""
+
+msgid "'%s' must be a logical flag"
+msgstr ""
+
+msgid "'%s' must be a list"
+msgstr ""
+
+msgid "'%s' must have the required variables"
+msgstr ""
+
+msgid "if 'resize' is FALSE, 'internals$oneGrob' must be a logical flag"
+msgstr ""
+
+msgid "'%s' must be numeric"
+msgstr ""
+
+msgid "'%s' and '%s' must total '%s' elements"
+msgstr ""
+
+msgid "'%s' must be a function"
+msgstr ""
+
+msgid "internals$getFontsize() must return a fontsize"
+msgstr ""
+
+msgid "if 'resize' is FALSE, 'internals$vpCex' must be a finite number"
+msgstr ""
+
+msgid "'x', 'y', 'width' and 'height' must be grid units"
+msgstr ""
+
+msgid "'width' and 'height' must have one element each"
+msgstr ""
+
+msgid "if '%s' is NULL, '%s' must be numeric and finite"
+msgstr ""
+
+msgid "non-NULL '%s' must be numeric and finite"
+msgstr ""
+
+msgid "'just' must be a finite numeric or character vector of length 1 or 2"
+msgstr ""
+
+msgid "'%s' must be NULL or a non-negative number"
+msgstr ""
+
+msgid "'rot' must be a vector of finite numbers"
+msgstr ""
+
+msgid "'rotJust' must be a logical vector without any NA values"
+msgstr ""
+
+msgid "'%s' must be NULL or a numeric vector"
+msgstr ""
+
+msgid "recreating grob because read-only slots were altered"
+msgstr ""
+
+msgid "Installation instructions:"
+msgstr ""
+
+msgid "1. Source the biocLite script"
+msgstr ""
+
+msgid "2. Check URL of current Rgraphviz README"
+msgstr ""
+
+msgid "3. View README (pressing 'q' is a likely exit route)"
+msgstr ""
+
+msgid "4a. If Rgraphviz comes bundled with Graphviz"
+msgstr ""
+
+msgid "4b. Otherwise, follow instructions in README"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Pruned"
+msgstr ""
+
+msgid "Best\nin class"
+msgstr ""
+
+msgid "Selected"
+msgstr ""
+
+msgid "Best\n(no branching)"
+msgstr ""
+
+msgid "Selected\n(no branching)"
+msgstr ""
+
+msgid "Highlighted"
+msgstr ""
+
+msgid "use only with \"sisal\" objects"
+msgstr ""
+
+msgid "names required in 'category.labels'"
+msgstr ""
+
+msgid "'%s' must be a numeric vector with all elements in %.0f:%.0f"
+msgstr ""
+
+msgid "Unknown R color in '%s'. See ?col2rgb."
+msgstr ""
+
+msgid "'%s' must have a logical value"
+msgstr ""
+
+msgid "'%s' must not be NA"
+msgstr ""
+
+msgid "package '%s' is needed but not installed"
+msgstr ""
+
+msgid "not doing plot number 2"
+msgstr ""
+
+msgid "'ylim' must be NULL or a numeric vector with 2 elements"
+msgstr ""
+
+msgid "'integrate.colorkey' requires Rgraphviz version >= \"2.5\""
+msgstr ""
+
+msgid "'%s' must have a positive numeric value"
+msgstr ""
+
+msgid "error.limits[1] > error.limits[2]"
+msgstr ""
+
+msgid "'error.limits[2]' too small, adjusting"
+msgstr ""
+
+msgid "'error.limits[1]' too large, adjusting"
+msgstr ""
+
+msgid "Fill"
+msgstr ""
+
+msgid "Border"
+msgstr ""
+
+msgid "Shape"
+msgstr ""
+
+msgid "'x' must only contain \"sisal\" objects"
+msgstr ""
+
+msgid "'x' must be a \"sisal\" object or a list"
+msgstr ""
+
+msgid "no \"sisal\" objects given"
+msgstr ""
+
+msgid "no input names in sisal object number %.0f"
+msgstr ""
+
+msgid "'xLabels' does not have names"
+msgstr ""
+
+msgid "x axis labels not available for all columns"
+msgstr ""
+
+msgid "extra elements of '%s' ignored"
+msgstr ""
+
+msgid "numeric 'xLabels' must be an index to 'x'"
+msgstr ""
+
+msgid "sisal objects have different numbers of inputs"
+msgstr ""
+
+msgid "if 'not(useAllNames)', 'xLabels' must be numeric, character or list"
+msgstr ""
+
+msgid "no inputs in sisal objects (this should not happen)"
+msgstr ""
+
+msgid "'yLabels' not available for all sisal objects"
+msgstr ""
+
+msgid "'yLabels' must be NULL, character or list"
+msgstr ""
+
+msgid "'%s' must be coercible to a matrix"
+msgstr ""
+
+msgid "'%s' must have at least one column"
+msgstr ""
+
+msgid "'%s' must be coercible to a vector with 'length(%s) == nrow(%s)'"
+msgstr ""
+
+msgid "\"(Intercept)\" is a forbidden variable name"
+msgstr ""
+
+msgid "selection between >1 constant columns is arbitrary"
+msgstr ""
+
+msgid "the data should be standardized when 'use.ridge' is TRUE"
+msgstr ""
+
+msgid "%d samples dropped due to missing values"
+msgstr ""
+
+msgid "too few complete samples: 2 is the absolute minimum"
+msgstr ""
+
+msgid "'kfold' must be an integral valued number, 2 <= 'kfold' <= number of samples"
+msgstr ""
+
+msgid "Leave-one-out cross-validation should not be repeated."
+msgstr ""
+
+msgid "Adjust 'Mtimes' and/or 'kfold'."
+msgstr ""
+
+msgid "At least two cross-validation repetitions would be identical."
+msgstr ""
+
+msgid "There are %.0f variables and %.0f samples."
+msgstr ""
+
+msgid "There are no missing values."
+msgstr ""
+
+msgid "There are no missing values in the remaining samples."
+msgstr ""
+
+msgid "too few samples in subproblems: %.0f required, %.0f available"
+msgstr ""
+
+msgid "Is a column all-zero?"
+msgstr ""
+
+msgid "Summary of all training sets."
+msgstr ""
+
+msgid "TRUE is yes, FALSE is no, NA is maybe:"
+msgstr ""
+
+msgid "E.v is %f"
+msgstr ""
+
+msgid "Variables by importance, increasing order:"
+msgstr ""
+
+msgid "Dropping variable %.0f"
+msgstr ""
+
+msgid "New candidate %s"
+msgstr ""
+
+msgid "Duplicate candidate %s"
+msgstr ""
+
+msgid "Not pruning (%d <= %d)"
+msgstr ""
+
+msgid "Pruning (%d > %d)..."
+msgstr ""
+
+msgid "Sampling from:"
+msgstr ""
+
+msgid "with unnormalized probabilities:"
+msgstr ""
+
+msgid "IDs:"
+msgstr ""
+
+msgid "Percentage of NA models per node"
+msgstr ""
+
+msgid "quantiles of values > 0:"
+msgstr ""
+
+msgid "branching"
+msgstr ""
+
+msgid "no branching"
+msgstr ""
+
+msgid "ridge regression"
+msgstr ""
+
+msgid "OLS regression"
+msgstr ""
+
+msgid "sisal (%s) results"
+msgstr ""
+
+msgid "Parameters:"
+msgstr ""
+
+msgid "Data dimensions:"
+msgstr ""
+
+msgid "inputs: %.0f, samples: %.0f"
+msgstr ""
+
+msgid "Input names are absent"
+msgstr ""
+
+msgid "Input names are present:"
+msgstr ""
+
+msgid "Selected inputs (%.0f), model with smallest validation error (L.v):"
+msgstr ""
+
+msgid "Selected inputs (%.0f), least complex model with error inside threshold (L.f):"
+msgstr ""
+
+msgid "L.f is a subset of L.v"
+msgstr ""
+
+msgid "L.f is not a subset of L.v"
+msgstr ""
+
+msgid "The best input sets for each number of inputs are nested."
+msgstr ""
+
+msgid "Ranking based on the removal order of inputs defining the nested input sets:"
+msgstr ""
+
+msgid "Ranking based on pairwise comparison of inputs (Copeland's method):"
+msgstr ""
+
+msgid "Ranking of inputs based on"
+msgstr ""
+
+msgid "* removal order of inputs"
+msgstr ""
+
+msgid "* pairwise comparison of inputs (Copeland's method)"
+msgstr ""
+
+msgid "Both methods agree. The ranking is:"
+msgstr ""
+
+msgid "The best input sets for each number of inputs are not nested."
+msgstr ""
+
+msgid "Removal order of input variables (ends with remaining input):"
+msgstr ""
+
+msgid "Ranking based on the removal order:"
+msgstr ""
+
+msgid "The search did not branch because there was only one variable."
+msgstr ""
+
+msgid "Due to pruning of the search graph, all the \"no branching\" results are missing."
+msgstr ""
+
+msgid "The alternative \"no branching\" L.v and L.f sets could not be computed."
+msgstr ""
+
+msgid "Branching reduced the size of the %s set."
+msgstr ""
+
+msgid "Branching increased the size of the %s set."
+msgstr ""
+
+msgid "Branching did not affect the %s set."
+msgstr ""
+
+msgid "Branching changed the composition but not the size of the %s set."
+msgstr ""
+
+msgid "The branching and non-branching %s sets are nested."
+msgstr ""
+
+msgid "The branching and non-branching %s sets are not nested."
+msgstr ""
+
+msgid "Validation error in the \"L.v, branching\" set is smaller than that in the \"L.v, no branching\" set."
+msgstr ""
+
+msgid "Validation error is the same in both %s sets (with or without branching)"
+msgstr ""
+
+msgid "Selected inputs (%.0f), model with smallest validation error, no branching (L.v.nobranch):"
+msgstr ""
+
+msgid "Validation error in the \"L.f, branching\" set is smaller than that in the \"L.f, no branching\" set."
+msgstr ""
+
+msgid "Validation error in the \"L.f, branching\" set is larger than that in the \"L.f, no branching\" set."
+msgstr ""
+
+msgid "Selected inputs (%.0f), least complex model with error inside threshold, no branching (L.f.nobranch):"
+msgstr ""
+
+msgid "Branching reduced validation error when the number of variables was one of the following:"
+msgstr ""
+
+msgid "For the known part, branching did not reduce validation error."
+msgstr ""
+
+msgid "Branching did not reduce validation error."
+msgstr ""
+
+msgid "use only with \"summary.sisal\" objects"
+msgstr ""
+
+msgid "summary() for linear models using all samples"
+msgstr ""
+
+msgid "All inputs"
+msgstr ""
+
+msgid "L.v inputs"
+msgstr ""
+
+msgid "L.f inputs"
+msgstr ""
+
+msgid "#Inputs"
+msgstr ""
+
+msgid "Tr. error"
+msgstr ""
+
+msgid "Tr. SD"
+msgstr ""
+
+msgid "Val. error"
+msgstr ""
+
+msgid "Errors, measured with cross-validation"
+msgstr ""
+
+msgid "Code: one \"*\" for each criterion:"
+msgstr ""
+
+msgid "* error is inside threshold"
+msgstr ""
+
+msgid "* smallest validation error (L.v)"
+msgstr ""
+
+msgid "* least complex model with error inside threshold (L.f)"
+msgstr ""
+
+msgid "remote file has changed"
+msgstr ""
+
+msgid "failed to download file"
+msgstr ""
+
+msgid "failed to create directory"
+msgstr ""
+
+msgid "a sisalTable object must be a gTree"
+msgstr ""
+
+msgid "'x', 'y', 'width' and 'height' must have one element each"
+msgstr ""
+
+msgid "'clip' must be TRUE, FALSE, \"on\", \"inherit\" or \"off\""
+msgstr ""
+
+msgid "'internals' must not be edited"
+msgstr ""
+
+msgid "when '%s' is TRUE, '%s' must be a non-negative number"
+msgstr ""
+
+msgid "if '%s' is not a unit, it must be a non-negative number"
+msgstr ""
+
+msgid "'lags' must be given when dataset is a generic numeric vector"
+msgstr ""
+
+msgid "%s (package %s)"
+msgstr ""
+
+msgid "anonymous function"
+msgstr ""
+
+msgid "Using sample size %.0f / %.0f"
+msgstr ""
+
+msgid "Calling %s"
+msgstr ""
+
+msgid        "Predicting %.0f step ahead with lags:"
+msgid_plural "Predicting %.0f steps ahead with lags:"
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "%.0f constant column found in 'X', will take part in input selection\n"
+msgid_plural "%.0f constant columns found in 'X', will take part in input selection\n"
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "There is %.0f sample with one or more missing values."
+msgid_plural "There are %.0f samples with one or more missing values."
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "%.0f set of inputs with rank deficiency problems"
+msgid_plural "%.0f sets of inputs with rank deficiency problems"
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "%.0f set of inputs with NA model coefficients"
+msgid_plural "%.0f sets of inputs with NA model coefficients"
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "Due to pruning of the search graph, the \"no branching\" solution for %.0f variable is not available."
+msgid_plural "Due to pruning of the search graph, the \"no branching\" solutions for %.0f or fewer variables are not available."
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "%.0f warning from sisal(), not shown"
+msgid_plural "%.0f warnings from sisal(), not shown"
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "%.0f warning from sisal(), %.0f shown:"
+msgid_plural "%.0f warnings from sisal(), %.0f shown:"
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "%.0f warning from sisal():"
+msgid_plural "%.0f warnings from sisal():"
+msgstr[0]    ""
+msgstr[1]    ""

@@ -1,0 +1,15 @@
+bibentry(bibtype = "Article",
+         title = "Sequential input selection algorithm for long-term prediction of time series",
+         journal = "Neurocomputing",
+         volume = "71",
+         number = "13--15",
+         pages = "2604--2615",
+         year = "2008",
+         issn = "0925-2312",
+         doi = "10.1016/j.neucom.2007.11.037",
+         author = c(person("Jarkko", "Tikka"),
+                    person("Jaakko", "Hollmén")),
+         keywords = "input selection, time series prediction, parsimonious modeling, multilayer-perceptron networks, sensitivity analysis",
+         key = "Tikka20082604")
+
+citation(auto = meta)

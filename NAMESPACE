@@ -1,0 +1,46 @@
+## base packages
+import(graphics)
+import(grDevices)
+import(grid)
+import(stats)
+importFrom(methods, selectMethod)
+importFrom(utils, download.file, head, setTxtProgressBar, txtProgressBar,
+           unzip, packageVersion, read.table)
+
+## recommended packages
+importFrom(boot, boot)
+importFrom(lattice, draw.colorkey)
+importFrom(mgcv, magic)
+
+## other packages
+importFrom(digest, digest)
+importFrom(R.matlab, readMat)
+importFrom(R.methodsS3, getDispatchMethodS3, setMethodS3)
+
+export(sisal, sisalData, testSisal, bootMSE, plot.sisal, print.sisal,
+       summary.sisal, sisalTable, plotSelected, laggedData, dynTextGrob)
+
+S3method(widthDetails, dynText)
+S3method(heightDetails, dynText)
+S3method(ascentDetails, dynText)
+S3method(descentDetails, dynText)
+S3method(xDetails, dynText)
+S3method(yDetails, dynText)
+S3method(makeContent, dynText)
+S3method(validDetails, dynText)
+S3method(editDetails, dynText)
+
+S3method(widthDetails, sisalTable)
+S3method(heightDetails, sisalTable)
+S3method(xDetails, sisalTable)
+S3method(yDetails, sisalTable)
+S3method(makeContent, sisalTable)
+S3method(validDetails, sisalTable)
+S3method(editDetails, sisalTable)
+
+S3method(plot, sisal)
+S3method(print, sisal)
+S3method(print, summary.sisal)
+S3method(summary, sisal)
+S3method(plotSelected, sisal)
+S3method(plotSelected, list)
