@@ -1,6 +1,30 @@
 \name{NEWS}
 \title{sisal News}
 
+\section{Changes in version 0.49 (2024-10-25)}{
+
+  \subsection{Installation}{
+    \itemize{
+
+      \item Require R 4.3.0 or later because package was not tested on
+      earlier versions
+
+    }
+  }
+
+  \subsection{Bug fixes}{
+    \itemize{
+
+      \item Update some outdated \acronym{URL}s
+
+      \item Fix help page cross-references to other packages (resolve
+      R CMD check NOTE)
+
+    }
+  }
+
+}
+
 \section{Changes in version 0.48 (2020-02-14)}{
 
   \subsection{User-visible changes}{
