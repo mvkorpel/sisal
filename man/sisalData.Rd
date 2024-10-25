@@ -59,8 +59,8 @@ sisalData(dataset = c("poland", "laser", "laser.cont"), verify = TRUE)
 
   Environmental and Industrial Machine Learning Group / Datasets /
   Poland Electricity
-  Load. \url{http://research.ics.aalto.fi/eiml/datasets.shtml}.
-  \acronym{URL} accessed on 2020-02-14.
+  Load. \url{https://research.cs.aalto.fi/aml/datasets.shtml}.
+  \acronym{URL} accessed on 2024-10-25.
 
 }
 \author{

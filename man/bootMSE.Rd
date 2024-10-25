@@ -33,7 +33,7 @@ bootMSE(object, dataset = NULL, R = 1000,
     \code{\var{object}}.  See \sQuote{Details}.  }
 
   \item{R}{ the number of bootstrap replicates.  Usually a single
-    positive integral number.  See \code{\link[=boot]{boot::boot}}.  }
+    positive integral number.  See \code{\link[boot:boot]{boot::boot}}.  }
 
   \item{inputs}{ a \code{character} string.  Which set of input
     variables to use.  Choices are \code{"L.f"} (smallest set with error
@@ -68,7 +68,7 @@ bootMSE(object, dataset = NULL, R = 1000,
     information about what the function is doing.  Currently there is
     only one non-zero verbosity level (the default).  }
 
-  \item{\dots}{ arguments passed to \code{\link[=boot]{boot::boot}}. }
+  \item{\dots}{ arguments passed to \code{\link[boot:boot]{boot::boot}}. }
 
 }
 \details{
@@ -116,14 +116,14 @@ bootMSE(object, dataset = NULL, R = 1000,
 \value{
 
   An object of class \code{"boot"}, as returned by
-  \code{\link[=boot]{boot::boot}}.
+  \code{\link[boot:boot]{boot::boot}}.
 
 }
 \author{
   Mikko Korpela
 }
 \seealso{
-  \code{\link[=boot]{boot::boot}}, \code{\link{sisal}},
+  \code{\link[boot:boot]{boot::boot}}, \code{\link{sisal}},
   \code{\link{testSisal}}
 }
 \examples{

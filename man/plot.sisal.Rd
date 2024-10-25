@@ -73,7 +73,7 @@
     }
 
     The default is to draw plot number 1.  For drawing plot number 2,
-    \href{http://www.bioconductor.org/}{Bioconductor} packages
+    \href{https://www.bioconductor.org/}{Bioconductor} packages
     \code{"graph"} and \code{"Rgraphviz"} must be installed.
 
     Some other arguments of this method only apply to specific plots.
@@ -257,7 +257,7 @@
   In argument \code{plotArgs}, \code{\var{plotArgs}[[1]]} is passed to
   \code{\link{matplot}}, \code{\var{plotArgs}[[2]]} to the
   \link[Rgraphviz:plot-methods]{plot method} for class \code{"Ragraph"},
-  and \code{\var{plotArgs}[[3]]} to \code{\link{draw.colorkey}$key}.
+  and \code{\var{plotArgs}[[3]]} to \code{\link[lattice]{draw.colorkey}$key}.
 
   For possible color values, see \code{\link{col2rgb}}.
 
@@ -279,7 +279,7 @@
 \references{
 
   For information about graph, node and edge attributes for plot number
-  2, see the Graphviz web site: \url{http://www.graphviz.org/}.
+  2, see the Graphviz web site: \url{https://www.graphviz.org/}.
 
 }
 \examples{

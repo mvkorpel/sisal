@@ -2,14 +2,14 @@ Encoding: UTF-8
 Package: sisal
 Type: Package
 Title: Sequential Input Selection Algorithm
-Version: 0.48
-Date: 2020-02-14
+Version: 0.49
+Date: 2024-10-25
 Authors@R: person("Mikko", "Korpela", role = c("aut", "cre"),
         email = "mvkorpel@iki.fi")
 Author: Mikko Korpela [aut, cre]
 Maintainer: Mikko Korpela <mvkorpel@iki.fi>
 Copyright: Aalto University
-Depends: R (>= 3.1.2)
+Depends: R (>= 4.3.0)
 Imports: graphics, grDevices, grid, methods, stats, utils, boot,
         lattice, mgcv, digest, R.matlab, R.methodsS3
 Suggests: graph, Rgraphviz, testthat (>= 0.8)

@@ -1,7 +1,7 @@
 ### File R/sisalData.R
 ### This file is part of the sisal package for R.
 ###
-### Copyright (C) 2015, 2020 Aalto University
+### Copyright (C) 2015, 2020, 2024 Aalto University
 ###
 ### This program is free software; you can redistribute it and/or modify
 ### it under the terms of the GNU General Public License as published by
@@ -41,7 +41,7 @@ sisalData <- function(dataset = c("poland", "laser", "laser.cont"),
         foo
     } else if (dataset2 == "poland") {
         fname <- tempfile()
-        if (download.file(url="http://research.ics.aalto.fi/eiml/datasets/PolandElectricity.zip",
+        if (download.file(url="https://research.cs.aalto.fi/aml/datasets/PolandElectricity.zip",
                           destfile=fname, mode="wb", quiet=TRUE) != 0) {
             stop("failed to download file")
         }

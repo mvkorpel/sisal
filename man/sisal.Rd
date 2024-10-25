@@ -133,12 +133,12 @@ sisal(X, y, Mtimes = 100, kfold = 10, hbranches = 1,
     warnings to store in the returned object.  If more warnings are
     given, their total number is still recorded in the object. }
 
-  \item{sp}{ a \code{numeric} value passed to \code{\link{magic}} if
+  \item{sp}{ a \code{numeric} value passed to \code{\link[mgcv]{magic}} if
     \code{\var{use.ridge}} is \code{TRUE}.  Initial value of the
     regularization parameter.  If negative (the default), initialization
     is automatic.  }
 
-  \item{\dots}{ additional arguments passed to \code{\link{magic}} if
+  \item{\dots}{ additional arguments passed to \code{\link[mgcv]{magic}} if
     \code{\var{use.ridge}} is \code{TRUE}.  It is an error to supply
     arguments named \code{"S"} or \code{"off"}.  }
 
@@ -318,13 +318,13 @@ sisal(X, y, Mtimes = 100, kfold = 10, hbranches = 1,
 
   \item{lm.full}{ \code{\link{lm}} model fitted to all variables. }
 
-  \item{magic.L.f}{ \code{\link{magic}} model fitted to \code{\var{L.f}}
+  \item{magic.L.f}{ \code{\link[mgcv]{magic}} model fitted to \code{\var{L.f}}
     variables. }
 
-  \item{magic.L.v}{ \code{\link{magic}} model fitted to \code{\var{L.v}}
+  \item{magic.L.v}{ \code{\link[mgcv]{magic}} model fitted to \code{\var{L.v}}
     variables. }
 
-  \item{magic.full}{ \code{\link{magic}} model fitted to all
+  \item{magic.full}{ \code{\link[mgcv]{magic}} model fitted to all
     variables. }
 
   \item{mean.y}{ mean of \code{\var{y}}. }
@@ -426,7 +426,7 @@ sisal(X, y, Mtimes = 100, kfold = 10, hbranches = 1,
 
 \seealso{
 
-  See \code{\link{magic}} for information about the algorithm used for
+  See \code{\link[mgcv]{magic}} for information about the algorithm used for
   estimating the regularization parameter and the corresponding linear
   model when \code{\var{use.magic}} is \code{TRUE}.
 
